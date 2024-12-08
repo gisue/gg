@@ -14,7 +14,7 @@ fi
 chmod +x "$SCRIPT_NAME"
 
 # Sposta il file in /usr/local/bin con il nome desiderato
-sudo mv "$SCRIPT_NAME" "/usr/local/bin/$COMMAND_NAME"
+sudo cp "$SCRIPT_NAME" "/usr/local/bin/$COMMAND_NAME"
 
 # Conferma l'installazione
 if [ $? -eq 0 ]; then
