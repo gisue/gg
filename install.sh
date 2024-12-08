@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Nome dello script Python
 SCRIPT_NAME="gg.py"
